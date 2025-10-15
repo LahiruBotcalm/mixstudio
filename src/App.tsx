@@ -6,9 +6,15 @@ import Hero from "./sections/Hero";
 
 const App = () => {
   return (
-    <div className="h-screen overflow-hidden bg-[#111111]">
+    <div className="h-screen bg-[#111111]">
       <NavHeader/>
       <Hero/>
+      <AboutUs/>
+      <AboutUs/>
+      <AboutUs/>
+      <AboutUs/>
+      <AboutUs/>
+      <AboutUs/>
       <AboutUs/>
       <Navbar/>
     </div>
