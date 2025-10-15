@@ -91,3 +91,15 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   z-index: 1;
 }
+
+
+/* Hide scrollbar for WebKit browsers */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for other browsers */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

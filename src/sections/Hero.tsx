@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className=' custom-container bg-blue-900 w-full text-white '>Hero</div>
+    <section id="home" className=' custom-container bg-blue-900 w-full text-white '>Hero</section>
   )
 }
 
