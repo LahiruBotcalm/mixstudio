@@ -10,12 +10,6 @@ const App = () => {
       <NavHeader/>
       <Hero/>
       <AboutUs/>
-      <AboutUs/>
-      <AboutUs/>
-      <AboutUs/>
-      <AboutUs/>
-      <AboutUs/>
-      <AboutUs/>
       <Navbar/>
     </div>
   );

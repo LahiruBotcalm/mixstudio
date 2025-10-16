@@ -24,7 +24,7 @@ const NavHeader: React.FC = () => {
 
   return (
     <div
-      className={`fixed left-1/2 custom-container !pt-[32px] !pb-[40px] transition-transform duration-300 -translate-x-1/2 ${
+      className={`fixed left-1/2 custom-container !pt-[32px] !pb-[40px] transition-all duration-300 -translate-x-1/2 ${
         isVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
